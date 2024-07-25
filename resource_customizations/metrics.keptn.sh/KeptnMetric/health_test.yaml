@@ -11,3 +11,7 @@ tests:
       status: Healthy
       message: "KeptnMetric is healthy"
     inputPath: testdata/healthy.yaml
+  - healthStatus:
+      status: Healthy
+      message: "KeptnMetric is healthy"
+    inputPath: testdata/healthy_empty_error.yaml
